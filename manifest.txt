@@ -1,0 +1,6 @@
+
+# It's to maintain beagleboard projects through repo
+git clone git@github.com:shizkr/beaglerepo.git ./repo
+cd repo
+
+Learn how to use manifest from Google website
