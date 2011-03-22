@@ -1,1 +1,5 @@
 # How to build 
+cd [TOP]
+build/build
+
+output will be saved under /out directory.

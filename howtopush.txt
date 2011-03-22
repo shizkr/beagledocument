@@ -1,0 +1,24 @@
+*Notes
+
+###
+Below directories won't be pushed individually as it'll be maintained by main line
+in other location. Please look at .repo/manifests/default.xml to find where the
+sources are coming.
+
+./kernel/common
+./xloader
+./uboot
+
+###
+These will be maintained by github in public location. www.github.com
+Please refer to below comments for pushing your fixes.
+
+./document
+./build
+./kernel/modules
+
+# If it doesn't have master branch
+git checkout -b master -f remotes/github/master
+
+# If it has the master branch
+git branch master
